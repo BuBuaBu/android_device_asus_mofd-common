@@ -57,7 +57,7 @@ TARGET_PROVIDES_CAMERA_HAL := true
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # Charger
-WITH_CM_CHARGER := false
+WITH_LINEAGE_CHARGER := false
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # Dex-preoptimization: Speeds up initial boot (if we ever o a user build, which we don't)
