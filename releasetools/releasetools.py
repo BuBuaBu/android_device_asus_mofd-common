@@ -38,7 +38,7 @@ def AddIfwiAssertion(info, input_zip):
            ", ".join(["%s" % (b,) for b in versions]) +
            '; this device has Ifwi version " + getprop("sys.ifwi.version") + ".");' +
            ');')
-    info.script.AppendExtra(cmd)
+#    info.script.AppendExtra(cmd)
 
 def FullOTA_InstallEnd(info):
   info.script.AppendExtra('assert(run_program("/tmp/install/bin/sign_boot.sh") == 0);')
